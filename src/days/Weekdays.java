@@ -10,10 +10,9 @@ package days;
  */
 public class Weekdays 
 {
-    public enum Day {
+  public enum Day {
         ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN
     }
-    
   public void nameOfDay(Day day)
      {
     switch(day)
